@@ -1,6 +1,5 @@
 import sys, time, getopt, select
 import usb.core, usb.util
-import serial
 import logging
 import inspect
 
@@ -52,7 +51,7 @@ class Sensor:
 
     def readline(self):
         if not self.trinket:
-            print('No trinket connected')
+            logging.error('No trinket connected')
             return
 
         try:
@@ -68,7 +67,7 @@ class Sensor:
         except Exception as ex:
             exStr = str(ex).lower()
             if 'timeout' not in exStr:
-                print('USB read error: %s' % ex)
+                logging.error('USB read error', ex)
                 self.trinket = False
 
     def __findTrinket(self):
