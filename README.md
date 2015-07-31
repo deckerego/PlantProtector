@@ -19,7 +19,7 @@ Hardware Punch List
     <td>Steel/Nickel Nails</td>
   </tr>
   <tr>
-    <td>4.7k Ohm Resistor, 2x 100 Ohm Resistor, Jumper Wires</td>
+    <td>4.7k Ohm Resistor, 3.3k Ohm Resistor, 100 Ohm Resistor, Jumper Wires</td>
     <td>Available at Sparkfun, Adafruit, Radio Shack or from de-soldering unused electronics.</td>
   </tr>
 </table>
