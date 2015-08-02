@@ -28,7 +28,7 @@ Hardware Punch List
 Hardware Installation
 ---------------------
 
-See https://hackaday.io/project/7037-plant-protector for hardware installation
+See https://hackaday.io/project/7037-plant-protector for hardware installation. A Fritzing layout is also provided with the project to illustrate component layouts.
 
 
 Software Installation
