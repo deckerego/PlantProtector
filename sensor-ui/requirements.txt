@@ -1,2 +1,2 @@
-bottle==0.11.6
+bottle==0.12.19
 pyusb>=1.0.0b2
